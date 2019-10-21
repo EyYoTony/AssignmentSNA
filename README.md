@@ -8,10 +8,13 @@ I played around with the github api and the git log command for getting the comm
 
 ### How to recreate the data
 Start by cloning the repo as a new folder in the same directory as the `getCommitters.sh` file
+
 `git clone https://github.com/eclipse/che/tree/master`
 
 Then compile and run the shell script to get a file called `emails.txt`
+
 `chmod u+x getCommitters.sh`
+
 `getCommitters.sh`
 
 Then we will format this data with the `removeDuplicates.py` and `createPairs.py` scripts
