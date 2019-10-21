@@ -18,8 +18,11 @@ Then compile and run the shell script to get a file called `emails.txt`
 `getCommitters.sh`
 
 Then we will format this data with the `removeDuplicates.py` and `createPairs.py` scripts
+
 The script `removeDuplicates.py` takes the txt file `emails.txt` and outputs the file `nodupe.txt`
+
 The script `createPairs.py` takes the txt file `nodupe.txt` and outputs the file `finalData.txt`
+
 I ran these scripts through the PyCharm IDE
 
 The only problem with collecting the emails through this method is that the git log might only sees the commits made on the master branch or branches that were merged with master. I'm unsure if this is actually the case, but this could lead to a dataset different from others.
