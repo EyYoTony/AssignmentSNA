@@ -29,7 +29,9 @@ The only problem with collecting the emails through this method is that the git 
 
 ## Deliverable 2
 
->TODO
+I was able to create a graph with the data collected in deliverable 1, which can be seen here:
+
+[<img src="https://i.imgur.com/q7XRNdn.png">](https://i.imgur.com/)
 
 ## Deliverable 3
 
