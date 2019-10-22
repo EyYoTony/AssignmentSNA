@@ -13,7 +13,7 @@ with open(filepath) as fp:
 pairlist = []
 for i in emailList:
     for j in emailList:
-        if i[0] == j[0]:
+        if i[0] == j[0] and i[1] != j[1]:
             pairlist.append(i[1].rstrip()+":"+j[1])
 
 #remove duplicates and reverse duplicates
