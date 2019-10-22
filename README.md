@@ -25,7 +25,7 @@ The script `createPairs.py` takes the txt file `nodupe.txt` and outputs the file
 
 I ran these scripts through the PyCharm IDE
 
-The only problem with collecting the emails through this method is that the git log might only sees the commits made on the master branch or branches that were merged with master. I'm unsure if this is actually the case, but this could lead to a dataset different from others.
+The only problem with collecting the emails through this method is that the git log might only see the commits made on the master branch or branches that were merged with master. I'm unsure if this is actually the case, but this could lead to a dataset different from others.
 
 ## Deliverable 2
 
