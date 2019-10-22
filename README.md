@@ -33,6 +33,18 @@ I was able to create a graph with the data collected in deliverable 1, which can
 
 [<img src="https://i.imgur.com/q7XRNdn.png">](https://i.imgur.com/)
 
+As you can see there is a limit in the query, this is because there were too many edges and vertices to be able to view them all without the webapp breaking.
+
+Also these edges are meant to be undirected, but Neo4j only has directed edges. The dataset that I have created has already been formatted to be used in an undirected graph.
+
+### How to recreate the database/graph
+
+First you will need a local Neoj4 database running on your machine to be able to run the python script `py2neoGraph.py`
+
+This script takes the pairs from the txt file `finalData.txt` and adds all the nodes and pairs to the database
+
+All the rest can be done in the local database webapp with queries.
+
 ## Deliverable 3
 
 >TODO
