@@ -35,7 +35,7 @@ I was able to create a graph with the data collected in deliverable 1, which can
 
 As you can see there is a limit in the query, this is because there were too many edges and vertices to be able to view them all without the webapp breaking.
 
-Also these edges are meant to be undirected, but Neo4j only has directed edges. The dataset that I have created has already been formatted to be used in an undirected graph.
+Also these edges are meant to be undirected, but Neo4j only has directed edges. So I had to go back to Deliverable 1 and create a new `finalData.txt` which each edge has a reversed edge to simulate an undirected graph.
 
 ### How to recreate the database/graph
 
