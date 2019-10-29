@@ -49,20 +49,20 @@ All the rest can be done in the local database webapp with queries.
 
 For this section I decided to use the library 'networkx' as it had built in functions to find the closeness, betweenness, and degree centrality.
 
-I was unable to get the visualisation of the graph working, but since I only needed the values of the the different centrality this was not a problem.
+I was unable to get the visualisation of the graph working with networkx, but since I only needed the values of the the different centralities this was not a problem.
 
-I got on output like this in the form of a `centrality.csv` file:
->mario.loriedo@gmail.com,1.2,0.005058314202344416,0.7142857142857143
+I got an output like this in the form of a `centrality.csv` file:
+`mario.loriedo@gmail.com,1.2,0.005058314202344416,0.7142857142857143
 
->fbenoit@redhat.com,1.6,0.036381762373363165,0.8333333333333334
+fbenoit@redhat.com,1.6,0.036381762373363165,0.8333333333333334
 
->noreply@github.com,1.9764705882352942,0.14573172411318136,0.9883720930232558
+noreply@github.com,1.9764705882352942,0.14573172411318136,0.9883720930232558
 
->rhopp@redhat.com,0.3764705882352941,0.00045001986580088413,0.5483870967741935
+rhopp@redhat.com,0.3764705882352941,0.00045001986580088413,0.5483870967741935
 
->monaka@monami-ya.jp,0.611764705882353,0.003958784561676397,0.5902777777777778
+monaka@monami-ya.jp,0.611764705882353,0.003958784561676397,0.5902777777777778
 
->amisevsk@redhat.com,0.9647058823529412,0.003370520282115119,0.6589147286821705
+amisevsk@redhat.com,0.9647058823529412,0.003370520282115119,0.6589147286821705`
 
 ### How to recreate the centrality.csv file
 
